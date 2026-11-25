@@ -2,7 +2,7 @@
 
 # Nakroth
 
-**English** · [Bahasa Indonesia](#bahasa-indonesia) · [Download Latest (v1.1.2)](https://github.com/ShinRyu04/Nakroth/releases/latest) · [Website](https://nakroth-website.vercel.app) · [Issues](https://github.com/ShinRyu04/Nakroth/issues)
+**English** · [Bahasa Indonesia](#bahasa-indonesia) · [Download Latest (v1.1.2)](https://github.com/ShinRyu04/Nakroth/releases/latest) · [Website](https://shinryu04.github.io/Nakroth/) · [Issues](https://github.com/ShinRyu04/Nakroth/issues)
 
 **Abyssal AI Command IDE & Multi-Agent Cockpit — built from scratch in Rust and GPUI.**
 
