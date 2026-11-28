@@ -27,9 +27,9 @@ Nakroth is a native, GPU-rendered code editor, multi-agent orchestrator, visual 
 
 ---
 
-## Five Workspaces, One Binary
+## Four Workspaces, One Binary
 
-Code, orchestrate parallel agents, think in fullscreen chat, design UI/diagrams, or forge themes, icons, schemas, and docs — switch seamlessly (`Ctrl+1` .. `Ctrl+5`) without losing state.
+Code, orchestrate parallel agents, think in fullscreen chat, or forge themes, icons, diagrams, visual Studio flows, schemas, and docs — switch seamlessly (`Ctrl+1` .. `Ctrl+4`) without losing state.
 
 <table>
 <tr>
@@ -51,15 +51,8 @@ Code, orchestrate parallel agents, think in fullscreen chat, design UI/diagrams,
 <a href="docs/screenshots/chat.png"><img src="docs/screenshots/chat.png" alt="Nakroth Chat Mode fullscreen AI workspace" width="100%" /></a>
 </td>
 <td width="50%" valign="top">
-<h3>4. Studio Mode (<code>Ctrl+4</code>)</h3>
-<p>Theme-adaptive UI Designer (<code>.kdsgn</code>) with deterministic Rust GPUI / React Tailwind / Vue / HTML codegen, two-way Mermaid Flowchart, and Tarjan Import Graph.</p>
-<a href="docs/screenshots/studio.png"><img src="docs/screenshots/studio.png" alt="Nakroth Studio Mode UI Designer and Inspector" width="100%" /></a>
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-<h3>5. Creator Mode (<code>Ctrl+5</code>)</h3>
-<p>16 pure-Rust &amp; AI creative labs (Full Identity Pack, Theme Forge, Icon &amp; Pack Lab, Brand &amp; Logo Kit, Palette &amp; Tokens, CSS Visual Lab, API &amp; Schema Forge, Mock Data &amp; Regex, README &amp; Docs, Git PR, Skill &amp; Rule Forge, Fleet Blueprint, and Vault) with permanent versioning, inline Diff preview, and 1-click Rollback.</p>
+<h3>4. Creator Mode (<code>Ctrl+4</code>)</h3>
+<p>All-in-one pure-Rust &amp; AI creative workbench (Full Identity Pack, Theme Forge, Icon &amp; Pack Lab, Brand &amp; Logo Kit, Diagram &amp; Flow → Studio UI Designer, API &amp; Schema Forge, README &amp; Docs, Git PR, Skill &amp; Rule Forge, Fleet Blueprint, and Vault) with permanent versioning, inline Diff preview, and 1-click Rollback.</p>
 <a href="docs/screenshots/creator.png"><img src="docs/screenshots/creator.png" alt="Nakroth Creator Mode Full Identity Pack with Live Preview" width="100%" /></a>
 </td>
 </tr>
@@ -142,7 +135,7 @@ Verify integrity using `SHA256SUMS.txt` and `latest.json` attached to every rele
 
 **Nakroth `v1.1.5`** adalah IDE AI-first dan kokpit multi-agen yang dibangun 100% murni dengan **Rust + GPUI** (tanpa Electron/Chromium) untuk Windows, Linux, dan macOS.
 
-- **5 Mode Terpadu (`Ctrl+1`–`Ctrl+5`)**: **Editor**, **Fleet** (Fleet Classic + Multi-Agent Session Lanes lintas git worktree), **Chat** (ruang AI fullscreen + Memory Bank SQLite), **Studio** (UI Designer adaptif tema + codegen Rust GPUI/React/Vue/HTML + Mermaid Flowchart + Import Graph), dan **Creator Mode** (16 lab kreatif dengan versioning permanen, inline Diff preview & 1-klik Rollback di Vault).
+- **4 Mode Terpadu (`Ctrl+1`–`Ctrl+4`)**: **Editor**, **Fleet** (Fleet Classic + Multi-Agent Session Lanes lintas git worktree), **Chat** (ruang AI fullscreen + Memory Bank SQLite), dan **Creator Mode** (lab kreatif tema/ikon/logo/CSS/API/skill + Diagram & Flow → Studio UI Designer + versioning permanen, inline Diff preview & 1-klik Rollback di Vault).
 - **Notifikasi OS Toast AI + Full 21/27 Suara Maskot Embedded**: Notifikasi desktop Windows Action Center / macOS / Linux otomatis saat AI selesai, error, atau butuh approval, lengkap dengan 21 voice line Executioner & 27 voice line Dimension Breaker Yuki Kaji tertanam langsung di binary.
 - **Terminal ConPTY Pro & Universal `~/.agents/skills`**: Render font monospace native Win32, kompatibel mulus dengan TUI modern (`opencode`, `omp`, PowerShell 7), SGR 1006 mouse scroll, `CSI 3 J`, plus deteksi skill global otomatis.
 - **6 Bahasa Penuh (`EN / ID / 中文 / VI / TH / JA`)** dengan dropdown bersih, Markdown Preview rata kiri + grid kartu HTML GitHub, drag window native Windows 11, dan integrasi Windows Explorer (`<2ms` tanpa UAC).
@@ -154,7 +147,7 @@ Verify integrity using `SHA256SUMS.txt` and `latest.json` attached to every rele
 
 **Nakroth `v1.1.5`** 是一款使用 **纯 Rust + GPUI** 从零构建的原生 AI 指挥中心 IDE 与多智能体工作台（零 Electron / Chromium 占用），全面支持 Windows、Linux 和 macOS。
 
-- **五大工作区模式 (`Ctrl+1`–`Ctrl+5`)**：**编辑器**、**舰队**（经典编队 + 独立多智能体工作树通道）、**对话**、**工作室**（自适应主题 UI 设计器 + 代码生成 + Mermaid 流程图 + 依赖图）与 **创作中心**（16 个交互式创作工坊，支持永久版本记录、内联 Diff 预览与一键回滚）。
+- **四大工作区模式 (`Ctrl+1`–`Ctrl+4`)**：**编辑器**、**舰队**（经典编队 + 独立多智能体工作树通道）、**对话** 与 **创作中心**（整合可视化工作室、流程图、主题/图标/品牌/API/技能工坊，支持永久版本记录、内联 Diff 预览与一键回滚）。
 - **原生系统 AI 完成通知与内置完整语音包**：AI 完成任务、报错或等待审批时自动推送系统通知，并内置 21 条 Executioner 与 27 条 Dimension Breaker 完整语音包（安装版与便携版开箱即用）。
 - **专业 VT100 ConPTY 终端与通用 `~/.agents/skills`**：原生等宽字体解析、完美适配 `opencode` / `omp` / PowerShell 7、支持 SGR 1006 滚轮与 `CSI 3 J` 清屏。
 - **完整六语界面（英语 / 印尼语 / 简体中文 / 越南语 / 泰语 / 日语）**、GitHub 卡片式 Markdown 预览与原生 Windows 资源管理器集成。
